@@ -9,7 +9,13 @@ const Header = () => {
 
   return (
     <div className="flex items-center justify-between py-5 px-5 font-medium bg-slate-200 shadow-md">
-      <img src={assets.textLogo} alt="" className="w-30 h-8 sm:w-60 sm:h-10" />
+      <Link to="/">
+        <img
+          src={assets.textLogo}
+          alt="techshop"
+          className="w-30 h-8 sm:w-60 sm:h-10"
+        />
+      </Link>
 
       <div className="flex items-center gap-6">
         <ul className="hidden sm:flex gap-5 text-sm text-gray-700">

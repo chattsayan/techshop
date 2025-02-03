@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom";
+
 const Product = ({ product }) => {
   return (
     <div className="">
-      <a href={`/product/${product._id}`}>
+      <Link to={`/product/${product._id}`}>
         <img
           className="object-cover w-full h-full"
           src={product.image}
           alt=""
         />
-      </a>
+      </Link>
 
       <div className="py-5">
-        <a href={`/product/${product._id}`}>{product.name}</a>
+        <Link to={`/product/${product._id}`}>{product.name}</Link>
       </div>
 
       <h3>₹ {product.price}</h3>

@@ -9,9 +9,9 @@ import airpods from "./airpods.jpg";
 import alexa from "./alexa.jpg";
 import camera from "./camera.jpg";
 import mouse from "./mouse.jpg";
-import phone from "./phone.jpg";
-import playstation from "./playstation.jpg";
 import sample from "./sample.jpg";
+import iphone from "./iphone.png";
+import ps5 from "./ps5.jpg";
 
 export const assets = {
   bin_icon,
@@ -25,7 +25,7 @@ export const assets = {
   alexa,
   camera,
   mouse,
-  phone,
-  playstation,
+  iphone,
+  ps5,
   sample,
 };
