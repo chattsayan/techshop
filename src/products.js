@@ -19,7 +19,7 @@ const products = [
     name: "iPhone 13 Pro Max 256GB",
     image: `${assets.iphone}`,
     description:
-      "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+      "Introducing the iPhone 13 Pro Max. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
     brand: "Apple",
     category: "Electronics",
     price: "1,21,300",
@@ -32,7 +32,7 @@ const products = [
     name: "Canon EOS R50 Mirrorless Camera",
     image: `${assets.camera}`,
     description:
-      "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
+      "Characterized by versatile imaging specs, the Canon EOS R50 further clarifies itself using a pair of robust focusing systems and an intuitive design",
     brand: "Cannon",
     category: "Electronics",
     price: "80,900",
